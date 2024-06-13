@@ -1,5 +1,6 @@
 # syntax=docker/dockerfile:1
-# FROM freqtradeorg/freqtrade:develop_freqairl
+# If pulling images is slow, try dockerproxy
+# FROM dockerproxy.com/freqtradeorg/freqtrade:develop_freqairl
 FROM freqtradeorg/freqtrade:develop_freqairl
 USER root
 
